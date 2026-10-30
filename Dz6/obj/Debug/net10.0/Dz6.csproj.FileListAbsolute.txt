@@ -1,0 +1,15 @@
+/Users/kirill_2008/Dz6/Dz6/bin/Debug/net10.0/Dz6
+/Users/kirill_2008/Dz6/Dz6/bin/Debug/net10.0/Dz6.deps.json
+/Users/kirill_2008/Dz6/Dz6/bin/Debug/net10.0/Dz6.runtimeconfig.json
+/Users/kirill_2008/Dz6/Dz6/bin/Debug/net10.0/Dz6.dll
+/Users/kirill_2008/Dz6/Dz6/bin/Debug/net10.0/Dz6.pdb
+/Users/kirill_2008/Dz6/Dz6/obj/Debug/net10.0/Dz6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kirill_2008/Dz6/Dz6/obj/Debug/net10.0/Dz6.AssemblyInfoInputs.cache
+/Users/kirill_2008/Dz6/Dz6/obj/Debug/net10.0/Dz6.AssemblyInfo.cs
+/Users/kirill_2008/Dz6/Dz6/obj/Debug/net10.0/Dz6.csproj.CoreCompileInputs.cache
+/Users/kirill_2008/Dz6/Dz6/obj/Debug/net10.0/Dz6.sourcelink.json
+/Users/kirill_2008/Dz6/Dz6/obj/Debug/net10.0/Dz6.dll
+/Users/kirill_2008/Dz6/Dz6/obj/Debug/net10.0/refint/Dz6.dll
+/Users/kirill_2008/Dz6/Dz6/obj/Debug/net10.0/Dz6.pdb
+/Users/kirill_2008/Dz6/Dz6/obj/Debug/net10.0/Dz6.genruntimeconfig.cache
+/Users/kirill_2008/Dz6/Dz6/obj/Debug/net10.0/ref/Dz6.dll
