@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dz6")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba3cf98266a6f5a30c77b84c1e92a39d233447e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7eb2d2fa7fc3837593ef937b8d7d2e52042da8d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dz6")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dz6")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
