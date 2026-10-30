@@ -14,27 +14,22 @@ namespace Task7_1
         private decimal _balance;
         private AccountType _type;
 
-        public int Number
-        {
-            get { return _number; }
-            set { _number = value; }
-        }
+        public int GetNumber() { return _number; }
+        public void SetNumber(int number) { _number = number; }
 
-        public decimal Balance
+        public decimal GetBalance() { return _balance; }
+        public void SetBalance(decimal balance)
         {
-            get { return _balance; }
-            set
+            if (balance < 0)
             {
-                if (value < 0) throw new ArgumentException("Баланс < 0");
-                _balance = value;
+                Console.WriteLine("Баланс не может быть отрицательным, значение не изменено.");
+                return;
             }
+            _balance = balance;
         }
 
-        public AccountType Type
-        {
-            get { return _type; }
-            set { _type = value; }
-        }
+        public AccountType GetType() { return _type; }
+        public void SetType(AccountType type) { _type = type; }
 
         public void Print()
         {
@@ -48,18 +43,32 @@ namespace Task7_1
         {
             Console.WriteLine(" Упражнение 7.1: Класс \"Счет в банке\" ");
             Console.WriteLine("Описание: класс с закрытыми полями (номер, баланс, тип),");
-            Console.WriteLine("свойства для чтения и записи, вывод информации об объекте.");
+            Console.WriteLine("методы заполнения (Set...) и чтения (Get...) полей,");
+            Console.WriteLine("вывод информации об объекте на печать.");
+            Console.WriteLine("Действий не требуется — программа работает сама.");
             Console.WriteLine();
 
             BankAccount acc = new BankAccount();
-            acc.Number = 1001;
-            acc.Balance = 1500;
-            acc.Type = AccountType.Savings;
+
+            acc.SetNumber(1001);
+            acc.SetBalance(1500);
+            acc.SetType(AccountType.Savings);
             acc.Print();
+
+            Console.WriteLine();
+            Console.WriteLine("Проверка защиты: попробуем задать отрицательный баланс.");
+            acc.SetBalance(-100);
+            acc.Print();
+
+            Console.WriteLine();
+            Console.WriteLine("Чтение полей через Get-методы:");
+            Console.WriteLine("Номер: " + acc.GetNumber());
+            Console.WriteLine("Баланс: " + acc.GetBalance());
+            Console.WriteLine("Тип: " + acc.GetType());
 
             Console.WriteLine();
             Console.WriteLine("Нажмите любую клавишу для выхода...");
             Console.ReadKey();
         }
     }
-}
+}    
